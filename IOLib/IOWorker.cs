@@ -11,7 +11,7 @@ namespace IOLib
         /// Does the work
         /// </summary>
         /// <exception cref="IOException">IO might fail rarely</exception>
-        public void DoWork()
+        public void DoWork(string path)
         {
             var random = new Random();
 
